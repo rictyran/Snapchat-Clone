@@ -67,7 +67,13 @@
                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <items>
-                                <navigationItem title="Snapchatters" id="4iT-44-w5y"/>
+                                <navigationItem title="Snapchatters" id="4iT-44-w5y">
+                                    <barButtonItem key="leftBarButtonItem" title="Logout" id="Lac-X9-M4S">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" identifier="logout" id="mNC-5a-9m8"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </navigationItem>
                             </items>
                         </navigationBar>
                         <prototypes>

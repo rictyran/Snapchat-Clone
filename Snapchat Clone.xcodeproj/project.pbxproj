@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A008AA61AF7095100C405CE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA5409B1AF701CE0075ED47 /* Parse.framework */; };
 		5A008AA71AF7095500C405CE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA5409A1AF701CE0075ED47 /* Bolts.framework */; };
+		5A008AA81AF7A63900C405CE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA5409B1AF701CE0075ED47 /* Parse.framework */; };
+		5A008AAA1AF7A69100C405CE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008AA91AF7A69100C405CE /* ParseUI.framework */; };
 		5AA540771AF700050075ED47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA540761AF700050075ED47 /* AppDelegate.swift */; };
 		5AA540791AF700050075ED47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA540781AF700050075ED47 /* ViewController.swift */; };
 		5AA5407C1AF700050075ED47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA5407A1AF700050075ED47 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A008AA91AF7A69100C405CE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		5AA540711AF700050075ED47 /* Snapchat Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snapchat Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA540751AF700050075ED47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AA540761AF700050075ED47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,11 +76,12 @@
 			files = (
 				5AA540B31AF702730075ED47 /* libsqlite3.dylib in Frameworks */,
 				5AA540B11AF702690075ED47 /* libz.dylib in Frameworks */,
+				5A008AAA1AF7A69100C405CE /* ParseUI.framework in Frameworks */,
 				5AA540AF1AF7025E0075ED47 /* SystemConfiguration.framework in Frameworks */,
 				5AA540AD1AF702510075ED47 /* StoreKit.framework in Frameworks */,
 				5AA540AB1AF702490075ED47 /* Security.framework in Frameworks */,
 				5AA540A91AF702400075ED47 /* QuartzCore.framework in Frameworks */,
-				5A008AA61AF7095100C405CE /* Parse.framework in Frameworks */,
+				5A008AA81AF7A63900C405CE /* Parse.framework in Frameworks */,
 				5A008AA71AF7095500C405CE /* Bolts.framework in Frameworks */,
 				5AA540A71AF702370075ED47 /* MobileCoreServices.framework in Frameworks */,
 				5AA540A51AF702300075ED47 /* CoreLocation.framework in Frameworks */,
@@ -171,6 +174,7 @@
 		5AA540991AF701AD0075ED47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5A008AA91AF7A69100C405CE /* ParseUI.framework */,
 				5AA5409A1AF701CE0075ED47 /* Bolts.framework */,
 				5AA5409B1AF701CE0075ED47 /* Parse.framework */,
 			);
